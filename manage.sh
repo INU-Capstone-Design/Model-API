@@ -1,17 +1,16 @@
-#!/bin/bash
+#!/bin/sh
 
 argument=$1
 
-if [ $argument = "start" ]; then
+if [ $argument = "up" ]; then
     echo "Creating infrastructure..."
-    sleep 3
-    gzip -d ko_w2v_model.gz
-    sleep 3
-    docker build -t 'w2v_model_api' .
-    sleep 3
-    docker run -d --name 'Model-API' -p '80':'5000' 'w2v_model_api'
+    docker-compose up -d
 elif [ $argument = "stop" ]; then
+    echo "Stopping infrastructure..."
+    docker-compose stop
+elif [ $argument = "down" ]; then
     echo "Deleting infrastructure..."
-    docker stop 'Model-API'
-    docker rm 'Model-API'
+    docker-compose down
+else
+  echo "Unknown argumnet! Options: up, stop, down"
 fi
