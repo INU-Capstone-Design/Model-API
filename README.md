@@ -3,6 +3,9 @@
 
 **Model-API**는 학습된 Word2Vec 모델을 서빙한 프로젝트입니다.
 
+## Architecture Diagram
+![MVP Architecture](./img/architecture.png)
+
 ## Prerequisites
 프로젝트를 실행시키기 위해 필요한 소프트웨어.
 
