@@ -3,6 +3,14 @@
 
 **Model-API**는 학습된 Word2Vec 모델을 서빙한 프로젝트입니다.
 
+## Tables
+
+* [Architecture diagram](#architecture-diagram)
+* [Prerequisites](#prerequisites)
+* [Model information](#model-information)
+* [Running project](#running-project)
+* [API service](#api-service)
+
 ## Architecture Diagram
 ![MVP Architecture](./img/architecture.png)
 
