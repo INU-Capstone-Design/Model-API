@@ -23,7 +23,13 @@
 - [docker-compose](https://docs.docker.com/compose/install/)
 
 ## Model information
-...
+- [Row Data](https://dumps.wikimedia.org/kowiki/latest/kowiki-latest-pages-articles.xml.bz2)
+- [Data Processing](https://github.com/mungiyo/wikitext_nouns_extractor.git)
+- Model Shape
+
+```sh
+(148481, 100)
+```
 
 ## Running Project
 `manage.sh` 스크립트는 `docker-compose`를 작동시키기 위한 관리 도구입니다.
