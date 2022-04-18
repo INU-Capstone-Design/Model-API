@@ -23,7 +23,7 @@
 - [docker-compose](https://docs.docker.com/compose/install/)
 
 ## Model information
-- [Row Data](https://dumps.wikimedia.org/kowiki/latest/kowiki-latest-pages-articles.xml.bz2)
+- [Raw Data](https://dumps.wikimedia.org/kowiki/latest/kowiki-latest-pages-articles.xml.bz2)
 - [Data Processing](https://github.com/mungiyo/wikitext_nouns_extractor.git)
 - Model Shape
 
